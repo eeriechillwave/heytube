@@ -1,0 +1,7 @@
+{
+  "youtubeClientStrategies": [
+    [],
+    ["--extractor-args", "youtube:player_client=web_embedded"],
+    ["--extractor-args", "youtube:player_client=android_vr"]
+  ]
+}
