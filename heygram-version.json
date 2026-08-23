@@ -1,5 +1,7 @@
 {
-  "version": "0.0.41",
-  "notas": "Correções no player e melhorias na busca.",
-  "pagina": "https://seu-dominio/HeyGram_pr_v0.0.41.zip"
+  "version": "1.1.2",
+  "notas": "Resumo das alterações.",
+  "arquivo": "https://updates.heytube.net/heygram/HeyGram_pr_v1.1.2.zip",
+  "sha256": "64_caracteres_hexadecimais_do_zip"
 }
+```
