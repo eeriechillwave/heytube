@@ -49,6 +49,6 @@
       <h2>13. Contact</h2><p>Questions about these Terms or the products can be sent to <a href="mailto:suporte-heyforge@proton.me">suporte-heyforge@proton.me</a>.</p>
     </article>
   </main>
-  <script>(()=>{const key='ht_lang',buttons=[...document.querySelectorAll('[data-lang-control]')];const setLanguage=lang=>{lang=lang==='en'?'en':'pt';document.body.dataset.lang=lang;document.documentElement.lang=lang==='en'?'en':'pt-BR';localStorage.setItem(key,lang);buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.langControl===lang)));};buttons.forEach(button=>button.addEventListener('click',()=>setLanguage(button.dataset.langControl)));setLanguage(localStorage.getItem(key));})();</script>
+  <script>(()=>{const key='ht_lang',buttons=[...document.querySelectorAll('[data-lang-control]')];const setLanguage=lang=>{lang=lang==='en'?'en':'pt';document.body.dataset.lang=lang;document.documentElement.lang=lang==='en'?'en':'pt-BR';document.title=lang==='en'?'Terms of Use — HeyForge':'Termos de Uso — HeyForge';localStorage.setItem(key,lang);buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.langControl===lang)));};buttons.forEach(button=>button.addEventListener('click',()=>setLanguage(button.dataset.langControl)));setLanguage(localStorage.getItem(key));})();</script>
 </body>
 </html>
